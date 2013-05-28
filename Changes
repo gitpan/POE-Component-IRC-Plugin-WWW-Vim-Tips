@@ -1,0 +1,23 @@
+0.07  2013-05-28 07:30:36 PDT
+        Rename module as POE::Component::IRC::Plugin::WWW::Vim::Tips
+
+0.06    2013-04-25
+        Forgot to bump version in POD
+
+0.05    2013-02-07
+        Ack, I left a backup folder that Dist::Zilla found
+
+0.04    2013-02-07
+        Convert to Dist::Zilla
+        Remove debug content
+
+0.03    2013-02-02
+        Switch from HTML::TreeBuilder::XPath to Mojo::JSON
+
+0.02    2013-01-13
+        Don't forget to list dependencies in Makefile.PL
+
+0.01    2013-28-01
+        First version
+
+
