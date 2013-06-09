@@ -1,10 +1,10 @@
 package POE::Component::IRC::Plugin::WWW::Vim::Tips;
 
-use 5.006;
+use 5.008_005;
 use strict;
 use warnings;
 
-our $VERSION = '0.08';
+our $VERSION = '0.09';
 
 use POE::Component::IRC::Plugin qw( :ALL );
 use Mojo::JSON;
