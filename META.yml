@@ -30,6 +30,6 @@ resources:
   bugtracker: https://github.com/aggrolite/POE-Component-IRC-Plugin-WWW-Vim-Tips/issues
   homepage: https://github.com/aggrolite/POE-Component-IRC-Plugin-WWW-Vim-Tips
   repository: https://github.com/aggrolite/POE-Component-IRC-Plugin-WWW-Vim-Tips.git
-version: 0.10
+version: 0.11
 x_contributors:
   - 'Curtis Brandt <curtisjbrandt@gmail.com>'
