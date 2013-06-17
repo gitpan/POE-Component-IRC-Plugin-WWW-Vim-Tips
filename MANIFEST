@@ -8,5 +8,5 @@ README
 cpanfile
 dist.ini
 lib/POE/Component/IRC/Plugin/WWW/Vim/Tips.pm
-t/basic.t
 t/release-pod-syntax.t
+t/vim.t
