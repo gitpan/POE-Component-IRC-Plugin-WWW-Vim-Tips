@@ -4,7 +4,7 @@ use 5.008_005;
 use strict;
 use warnings;
 
-our $VERSION = '0.12';
+our $VERSION = '0.13';
 
 use POE::Component::IRC::Plugin qw( :ALL );
 use Mojo::JSON;
@@ -104,6 +104,10 @@ POE::Component::IRC::Plugin::WWW::Vim::Tips - IRC plugin to fetch Vim tips
 
 type !vimtip or !vimtips to get a random Vim tip, currenly fetched from L<http://twitter.com/vimtips>
 
+here is a cool one-liner if you just want the Vim tip:
+
+    perl -Ilib -MPOE::Component::IRC::Plugin::WWW::Vim::Tips
+         -le 'print POE::Component::IRC::Plugin::WWW::Vim::Tips->new->_get_vim_tip'
 
 =head1 AUTHOR
 
